@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a small bloging website",
   "main": "index.js",
+  
   "scripts": {
     "start": "nodemon index.js"
   },

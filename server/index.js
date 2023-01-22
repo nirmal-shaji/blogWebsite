@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
-app.use('/', userRouter);
+app.use('/api/v1/', userRouter);
 
 app.listen(port, () => {
     console.log("server started")
